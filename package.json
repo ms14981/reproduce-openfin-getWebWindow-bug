@@ -1,0 +1,31 @@
+{
+  "name": "repro_getwebwindow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "launch": "openfin --launch --config ./public/app.dev.json",
+    "start": "cross-env BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.3.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

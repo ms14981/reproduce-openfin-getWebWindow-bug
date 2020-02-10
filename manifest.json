@@ -1,0 +1,9 @@
+{
+  "short_name": "Openfin getWebWindow Bug Demo",
+  "name": "Openfin getWebWindow Bug Demo",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
